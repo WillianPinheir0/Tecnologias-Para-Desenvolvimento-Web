@@ -6,13 +6,14 @@ import { getFirestore } from "firebase/firestore";
 
 // Configuração do Firebase (substitua pelos dados do seu projeto)
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_AUTH_DOMAIN",
-  projectId: "SEU_PROJECT_ID",
-  storageBucket: "SEU_STORAGE_BUCKET",
-  messagingSenderId: "SEU_MESSAGING_SENDER_ID",
-  appId: "SEU_APP_ID"
-};
+  apiKey: "AIzaSyAjIXmodlnx-uPOYsfC72tDDlPuM7KbHhY",
+  authDomain: "desenvolvimento-web-ed3be.firebaseapp.com",
+  projectId: "desenvolvimento-web-ed3be",
+  storageBucket: "desenvolvimento-web-ed3be.firebasestorage.app",
+  messagingSenderId: "40490367355",
+  appId: "1:40490367355:web:9564bcdd344d9e19c3e5de",
+  measurementId: "G-421V0TL3TX"
+}; 
 
 // Inicialize o Firebase
 const app = initializeApp(firebaseConfig);
